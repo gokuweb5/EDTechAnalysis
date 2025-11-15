@@ -89,7 +89,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Current MVP</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/DashboardReal01.png" alt="Dashboard MVP">
+                            <img src="Figma/DashboardReal01.png" alt="Dashboard MVP">
                             <div class="image-overlay">
                                 <span class="label bad">Basic Design</span>
                             </div>
@@ -108,7 +108,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Figma Design</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/DashboardA01-G3340.png" alt="Dashboard Figma">
+                            <img src="Figma/DashboardA01-G3340.png" alt="Dashboard Figma">
                             <div class="image-overlay">
                                 <span class="label good">Premium Design</span>
                             </div>
@@ -143,28 +143,28 @@ const contentHTML = `
                 </h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/Dashboard01-G626542.png" alt="Dashboard Variation 1">
+                        <img src="Figma/Dashboard01-G626542.png" alt="Dashboard Variation 1">
                         <div class="gallery-caption">
                             <h4>Colorful Dashboard</h4>
                             <p>Vibrant design with AI chat integration</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/Dashboard02-G626537.png" alt="Dashboard Variation 2">
+                        <img src="Figma/Dashboard02-G626537.png" alt="Dashboard Variation 2">
                         <div class="gallery-caption">
                             <h4>Activity Dashboard</h4>
                             <p>Focus on time tracking and progress</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/Dashboard03-G626526.png" alt="Dashboard Variation 3">
+                        <img src="Figma/Dashboard03-G626526.png" alt="Dashboard Variation 3">
                         <div class="gallery-caption">
                             <h4>Analytics Dashboard</h4>
                             <p>Data-driven insights and metrics</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/DashboardA02-G3364.png" alt="Dashboard Alternative">
+                        <img src="Figma/DashboardA02-G3364.png" alt="Dashboard Alternative">
                         <div class="gallery-caption">
                             <h4>Alternative Layout</h4>
                             <p>Different approach to information architecture</p>
@@ -182,7 +182,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Current MVP - Login</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/LoginReal.png" alt="Login MVP">
+                            <img src="Figma/LoginReal.png" alt="Login MVP">
                             <div class="image-overlay">
                                 <span class="label bad">Basic Form</span>
                             </div>
@@ -200,7 +200,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Figma Design - Login</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/SignIn01-G3092.png" alt="Login Figma">
+                            <img src="Figma/SignIn01-G3092.png" alt="Login Figma">
                             <div class="image-overlay">
                                 <span class="label good">Immersive Experience</span>
                             </div>
@@ -221,7 +221,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Current MVP - Signup</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/SignupReal.png" alt="Signup MVP">
+                            <img src="Figma/SignupReal.png" alt="Signup MVP">
                             <div class="image-overlay">
                                 <span class="label bad">Standard Form</span>
                             </div>
@@ -231,7 +231,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Figma Design - Signup</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/SignUp01-G3093.png" alt="Signup Figma">
+                            <img src="Figma/SignUp01-G3093.png" alt="Signup Figma">
                             <div class="image-overlay">
                                 <span class="label good">Modern Experience</span>
                             </div>
@@ -277,7 +277,7 @@ const contentHTML = `
                     <div class="comparison-item">
                         <h4>Figma Design</h4>
                         <div class="image-wrapper">
-                            <img src="../Figma/PersonalAI01-G626528.png" alt="Personal AI Figma">
+                            <img src="Figma/PersonalAI01-G626528.png" alt="Personal AI Figma">
                             <div class="image-overlay">
                                 <span class="label good">Advanced AI</span>
                             </div>
@@ -298,21 +298,21 @@ const contentHTML = `
                 <h4 style="margin: 2rem 0 1rem;">Personal AI Interface Variations</h4>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalAI02-G3366.png" alt="AI Variation 1">
+                        <img src="Figma/PersonalAI02-G3366.png" alt="AI Variation 1">
                         <div class="gallery-caption">
                             <h4>AI Chat Interface</h4>
                             <p>Conversational learning assistant</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalAI02-G3368.png" alt="AI Variation 2">
+                        <img src="Figma/PersonalAI02-G3368.png" alt="AI Variation 2">
                         <div class="gallery-caption">
                             <h4>AI Dashboard</h4>
                             <p>AI-powered insights and analytics</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalAI02-G3370.png" alt="AI Variation 3">
+                        <img src="Figma/PersonalAI02-G3370.png" alt="AI Variation 3">
                         <div class="gallery-caption">
                             <h4>Document Analysis</h4>
                             <p>AI document processing interface</p>
@@ -338,7 +338,7 @@ const contentHTML = `
                 </h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/ChatBot01-G626550.png" alt="Chat Bot">
+                        <img src="Figma/ChatBot01-G626550.png" alt="Chat Bot">
                         <div class="gallery-caption">
                             <h4>AI Chat Assistant</h4>
                             <p>Real-time educational support with NLP</p>
@@ -354,28 +354,28 @@ const contentHTML = `
                 </h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalLessons01-G626533.png" alt="Lessons 1">
+                        <img src="Figma/PersonalLessons01-G626533.png" alt="Lessons 1">
                         <div class="gallery-caption">
                             <h4>Lesson Overview</h4>
                             <p>Personalized learning paths</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalLessons01-G626534.png" alt="Lessons 2">
+                        <img src="Figma/PersonalLessons01-G626534.png" alt="Lessons 2">
                         <div class="gallery-caption">
                             <h4>Course Content</h4>
                             <p>Interactive lesson materials</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalLessons01-G626535.png" alt="Lessons 3">
+                        <img src="Figma/PersonalLessons01-G626535.png" alt="Lessons 3">
                         <div class="gallery-caption">
                             <h4>Progress Tracking</h4>
                             <p>Detailed progress analytics</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/PersonalLessons02-G3115.png" alt="Lessons 4">
+                        <img src="Figma/PersonalLessons02-G3115.png" alt="Lessons 4">
                         <div class="gallery-caption">
                             <h4>Alternative View</h4>
                             <p>Different lesson layout approach</p>
@@ -391,14 +391,14 @@ const contentHTML = `
                 </h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/Settings01-G626531.png" alt="Settings 1">
+                        <img src="Figma/Settings01-G626531.png" alt="Settings 1">
                         <div class="gallery-caption">
                             <h4>User Settings</h4>
                             <p>Comprehensive user preferences</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/Settings01-G626532.png" alt="Settings 2">
+                        <img src="Figma/Settings01-G626532.png" alt="Settings 2">
                         <div class="gallery-caption">
                             <h4>Advanced Settings</h4>
                             <p>AI and personalization options</p>
@@ -414,28 +414,28 @@ const contentHTML = `
                 </h3>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="../Figma/HomeReal01.png" alt="Home Real">
+                        <img src="Figma/HomeReal01.png" alt="Home Real">
                         <div class="gallery-caption">
                             <h4>Current Home</h4>
                             <p>MVP home screen implementation</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/ProfileReal01.png" alt="Profile Real">
+                        <img src="Figma/ProfileReal01.png" alt="Profile Real">
                         <div class="gallery-caption">
                             <h4>Current Profile</h4>
                             <p>Basic user profile page</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/LeaderBoardReal01.png" alt="Leaderboard">
+                        <img src="Figma/LeaderBoardReal01.png" alt="Leaderboard">
                         <div class="gallery-caption">
                             <h4>Leaderboard</h4>
                             <p>Gamification element</p>
                         </div>
                     </div>
                     <div class="gallery-item">
-                        <img src="../Figma/AssignmentReal01.png" alt="Assignments">
+                        <img src="Figma/AssignmentReal01.png" alt="Assignments">
                         <div class="gallery-caption">
                             <h4>Assignments</h4>
                             <p>Task management interface</p>

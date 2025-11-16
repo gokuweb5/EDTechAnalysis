@@ -323,11 +323,15 @@ const contentHTML = `
                 <div class="tech-requirements">
                     <h4>Technologies Needed for AI Implementation</h4>
                     <div class="tech-pills">
-                        <span class="tech-pill">OpenAI API</span>
+                        <span class="tech-pill">OpenAI API (Premium)</span>
+                        <span class="tech-pill">Free LLM (Filter Layer)</span>
                         <span class="tech-pill">LangChain</span>
                         <span class="tech-pill">Vector Database</span>
                         <span class="tech-pill">WebSockets</span>
                     </div>
+                    <p style="margin-top: 1rem; padding: 1rem; background: rgba(99, 102, 241, 0.1); border-radius: 8px; font-size: 0.9rem;">
+                        <strong>Two-Layer AI Architecture:</strong> First layer uses a free LLM to filter and validate queries, preventing abuse. Only genuine educational queries reach the premium OpenAI API, significantly reducing costs.
+                    </p>
                 </div>
             </div>
 

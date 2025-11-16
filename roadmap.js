@@ -317,37 +317,37 @@ const roadmapContent = `
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
                 <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid var(--primary); border-radius: 16px; padding: 2rem;">
                     <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">⏱️ Total Time</h3>
-                    <div style="font-size: 3rem; font-weight: 800; color: var(--primary); margin-bottom: 1rem;">10</div>
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--primary); margin-bottom: 1rem;">16-20</div>
                     <div style="color: var(--gray);">Weeks of development</div>
                     <ul style="list-style: none; margin-top: 1.5rem;">
-                        <li style="padding: 0.5rem 0;">• Week 1-2: Design System</li>
-                        <li style="padding: 0.5rem 0;">• Week 3-5: Core Features</li>
-                        <li style="padding: 0.5rem 0;">• Week 6-9: AI Integration</li>
-                        <li style="padding: 0.5rem 0;">• Week 10: Testing & Deploy</li>
+                        <li style="padding: 0.5rem 0;">• Week 1-4: Design System</li>
+                        <li style="padding: 0.5rem 0;">• Week 5-10: Core Features</li>
+                        <li style="padding: 0.5rem 0;">• Week 11-18: AI Integration</li>
+                        <li style="padding: 0.5rem 0;">• Week 19-20: Testing & Deploy</li>
                     </ul>
                 </div>
 
                 <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid var(--success); border-radius: 16px; padding: 2rem;">
-                    <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">👥 Team Required</h3>
-                    <div style="font-size: 3rem; font-weight: 800; color: var(--success); margin-bottom: 1rem;">3-4</div>
-                    <div style="color: var(--gray);">Developers needed</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">👨‍💻 Team Required</h3>
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--success); margin-bottom: 1rem;">1</div>
+                    <div style="color: var(--gray);">Senior Full-Stack Developer</div>
                     <ul style="list-style: none; margin-top: 1.5rem;">
-                        <li style="padding: 0.5rem 0;">• 1-2 Frontend (NextJs/React)</li>
-                        <li style="padding: 0.5rem 0;">• 1 Backend (Node/Express)</li>
-                        <li style="padding: 0.5rem 0;">• 1 AI/ML Engineer</li>
-                        <li style="padding: 0.5rem 0;">• DevOps (optional)</li>
+                        <li style="padding: 0.5rem 0;">✓ Full-Stack (NextJs/Node)</li>
+                        <li style="padding: 0.5rem 0;">✓ AI/ML Integration</li>
+                        <li style="padding: 0.5rem 0;">✓ DevOps & Deployment</li>
+                        <li style="padding: 0.5rem 0;">✓ Single point of responsibility</li>
                     </ul>
                 </div>
 
                 <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid var(--warning); border-radius: 16px; padding: 2rem;">
                     <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">💰 Estimated Investment</h3>
-                    <div style="font-size: 3rem; font-weight: 800; color: var(--warning); margin-bottom: 1rem;">$30-40K</div>
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--warning); margin-bottom: 1rem;">$35-50K</div>
                     <div style="color: var(--gray);">USD for complete development</div>
                     <ul style="list-style: none; margin-top: 1.5rem;">
-                        <li style="padding: 0.5rem 0;">• Development: $25-30K</li>
+                        <li style="padding: 0.5rem 0;">• Development: $30-42K</li>
                         <li style="padding: 0.5rem 0;">• AI APIs: $2-3K/year</li>
                         <li style="padding: 0.5rem 0;">• Infrastructure: $200-500/month</li>
-                        <li style="padding: 0.5rem 0;">• Testing/QA: $2-3K</li>
+                        <li style="padding: 0.5rem 0;">• Testing/QA: $3-5K</li>
                     </ul>
                 </div>
             </div>

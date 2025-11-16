@@ -89,7 +89,7 @@ const roadmapContent = `
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Implementation Roadmap</h2>
-                <p class="section-subtitle">Detailed 10-week plan to achieve the Figma vision</p>
+                <p class="section-subtitle">Detailed 20-week plan to achieve the Figma vision</p>
             </div>
 
             <div class="roadmap-container">
@@ -97,29 +97,33 @@ const roadmapContent = `
                     <div class="phase-header">
                         <span class="phase-number">PHASE 1</span>
                         <h3>Foundation & Design System</h3>
-                        <span class="phase-duration">Weeks 1-2</span>
+                        <span class="phase-duration">Weeks 1-4</span>
                     </div>
                     <div class="phase-content">
                         <div class="task-list">
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Setup TailwindCSS with existing NextJs (2 days)</span>
+                                <span>Setup TailwindCSS with existing NextJs (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Create glassmorphism components (3 days)</span>
+                                <span>Create glassmorphism components library (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Implement dark/light theme toggle (2 days)</span>
+                                <span>Implement dark/light theme toggle (3 days)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Add Framer Motion animations (2 days)</span>
+                                <span>Add Framer Motion animations (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Update layout to sidebar navigation (1 day)</span>
+                                <span>Update layout to sidebar navigation (2 days)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Create reusable UI components (Shadcn/ui) (3 days)</span>
                             </div>
                         </div>
                         <div class="deliverables">
@@ -129,6 +133,7 @@ const roadmapContent = `
                                 <li>Component library</li>
                                 <li>Responsive layouts</li>
                                 <li>Theme switching</li>
+                                <li>Animation framework</li>
                             </ul>
                         </div>
                     </div>
@@ -138,25 +143,33 @@ const roadmapContent = `
                     <div class="phase-header">
                         <span class="phase-number">PHASE 2</span>
                         <h3>Core Features Enhancement</h3>
-                        <span class="phase-duration">Weeks 3-5</span>
+                        <span class="phase-duration">Weeks 5-10</span>
                     </div>
                     <div class="phase-content">
                         <div class="task-list">
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Redesign dashboard with advanced metrics (5 days)</span>
+                                <span>Redesign dashboard with advanced metrics (2 weeks)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Implement gamification system (5 days)</span>
+                                <span>Implement gamification system (2 weeks)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Add social login (Google, Apple) (3 days)</span>
+                                <span>Add social login (Google, Apple) (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Create leaderboard and achievements (2 days)</span>
+                                <span>Create leaderboard and achievements (1 week)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Implement real-time notifications (WebSockets) (3 days)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Add progress tracking visualizations (4 days)</span>
                             </div>
                         </div>
                         <div class="deliverables">
@@ -166,6 +179,8 @@ const roadmapContent = `
                                 <li>Achievement system</li>
                                 <li>Functional leaderboard</li>
                                 <li>OAuth integration</li>
+                                <li>Real-time updates</li>
+                                <li>Progress analytics</li>
                             </ul>
                         </div>
                     </div>
@@ -174,26 +189,34 @@ const roadmapContent = `
                 <div class="roadmap-phase">
                     <div class="phase-header">
                         <span class="phase-number">PHASE 3</span>
-                        <h3>AI & Machine Learning</h3>
-                        <span class="phase-duration">Weeks 6-9</span>
+                        <h3>AI & Machine Learning Integration</h3>
+                        <span class="phase-duration">Weeks 11-18</span>
                     </div>
                     <div class="phase-content">
                         <div class="task-list">
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Integrate OpenAI GPT API (3 days)</span>
+                                <span>Integrate OpenAI GPT API (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Develop Personal AI Assistant (7 days)</span>
+                                <span>Develop Personal AI Assistant (3 weeks)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Build recommendation system (5 days)</span>
+                                <span>Build recommendation system (2 weeks)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Implement predictive analytics (5 days)</span>
+                                <span>Implement predictive analytics (1.5 weeks)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Create AI-powered content suggestions (1 week)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Implement adaptive learning paths (3 days)</span>
                             </div>
                         </div>
                         <div class="deliverables">
@@ -203,6 +226,8 @@ const roadmapContent = `
                                 <li>Adaptive system</li>
                                 <li>Analytics dashboard</li>
                                 <li>ML recommendations</li>
+                                <li>Content suggestions</li>
+                                <li>Personalized learning</li>
                             </ul>
                         </div>
                     </div>
@@ -211,34 +236,44 @@ const roadmapContent = `
                 <div class="roadmap-phase">
                     <div class="phase-header">
                         <span class="phase-number">PHASE 4</span>
-                        <h3>Polish & Deployment</h3>
-                        <span class="phase-duration">Week 10</span>
+                        <h3>Testing & Deployment</h3>
+                        <span class="phase-duration">Weeks 19-20</span>
                     </div>
                     <div class="phase-content">
                         <div class="task-list">
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Comprehensive testing (2 days)</span>
+                                <span>Comprehensive testing (Unit, Integration, E2E) (1 week)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Performance optimization (1 day)</span>
+                                <span>Performance optimization and caching (3 days)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Bug fixes and refinements (1 day)</span>
+                                <span>Bug fixes and refinements (2 days)</span>
                             </div>
                             <div class="task">
                                 <i class="fas fa-circle"></i>
-                                <span>Production deployment (1 day)</span>
+                                <span>Security audit and fixes (2 days)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Production deployment and monitoring setup (1 day)</span>
+                            </div>
+                            <div class="task">
+                                <i class="fas fa-circle"></i>
+                                <span>Documentation and handover (1 day)</span>
                             </div>
                         </div>
                         <div class="deliverables">
                             <h4>Deliverables</h4>
                             <ul>
                                 <li>Complete platform</li>
+                                <li>Test coverage reports</li>
                                 <li>Documentation</li>
                                 <li>Production deploy</li>
+                                <li>Monitoring dashboard</li>
                             </ul>
                         </div>
                     </div>
@@ -260,43 +295,43 @@ const roadmapContent = `
                     <tbody>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">Design System & UI</td>
-                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
+                            <td style="padding: 1rem; text-align: center;">4 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--danger); color: white; padding: 0.25rem 0.5rem; border-radius: 4px;">High</span></td>
                             <td style="padding: 1rem; text-align: center;">Medium</td>
                         </tr>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">Gamification System</td>
-                            <td style="padding: 1rem; text-align: center;">1 week</td>
+                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--warning); color: var(--dark); padding: 0.25rem 0.5rem; border-radius: 4px;">Medium</span></td>
                             <td style="padding: 1rem; text-align: center;">Low</td>
                         </tr>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">Social Login</td>
-                            <td style="padding: 1rem; text-align: center;">3 days</td>
+                            <td style="padding: 1rem; text-align: center;">1 week</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--warning); color: var(--dark); padding: 0.25rem 0.5rem; border-radius: 4px;">Medium</span></td>
                             <td style="padding: 1rem; text-align: center;">Low</td>
                         </tr>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">AI Chat Bot</td>
-                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
+                            <td style="padding: 1rem; text-align: center;">4 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--danger); color: white; padding: 0.25rem 0.5rem; border-radius: 4px;">High</span></td>
                             <td style="padding: 1rem; text-align: center;">High</td>
                         </tr>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">Recommendation System</td>
-                            <td style="padding: 1rem; text-align: center;">1 week</td>
+                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--warning); color: var(--dark); padding: 0.25rem 0.5rem; border-radius: 4px;">Medium</span></td>
                             <td style="padding: 1rem; text-align: center;">High</td>
                         </tr>
                         <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
                             <td style="padding: 1rem;">Analytics Dashboard</td>
-                            <td style="padding: 1rem; text-align: center;">1 week</td>
+                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--success); color: white; padding: 0.25rem 0.5rem; border-radius: 4px;">Low</span></td>
                             <td style="padding: 1rem; text-align: center;">Medium</td>
                         </tr>
                         <tr>
                             <td style="padding: 1rem;">Testing & Deployment</td>
-                            <td style="padding: 1rem; text-align: center;">1 week</td>
+                            <td style="padding: 1rem; text-align: center;">2 weeks</td>
                             <td style="padding: 1rem; text-align: center;"><span style="background: var(--danger); color: white; padding: 0.25rem 0.5rem; border-radius: 4px;">High</span></td>
                             <td style="padding: 1rem; text-align: center;">Low</td>
                         </tr>
